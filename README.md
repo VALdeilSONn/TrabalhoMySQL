@@ -3,8 +3,8 @@
 
 
 ⇨ Existem outras entidades além dessas três?
-R: Sim , a tabela Professor.
+R: Tabela Professor.
 ⇨ Quais são os principais campos e tipos?
-R: ID, Matricula, presença do aluno, horario da turma
+R: ID, int, varchar.
 ⇨ Como essas entidades estão relacionadas?
-R: A matricula do aluno esta relacionando na grande maioria das entidades, porem tem a presensa do curso, que interliga com a turma e o professor.
+R: 1:2 e 1:1
